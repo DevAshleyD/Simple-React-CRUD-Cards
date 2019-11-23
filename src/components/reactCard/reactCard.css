@@ -1,0 +1,63 @@
+.container-btn-delete{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+}
+
+.container-name, .container-description{
+    display: flex;
+}
+
+.container-input-name a{
+    margin-left: 12px;
+}
+
+.card-title {
+    margin-right: 12px !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.btn-floating.btn-large {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-floating.btn-large i {
+    line-height: 30px;
+}
+
+.btn-large {
+    height: 30px;
+    line-height: 30px;
+}
+
+.btn-large i {
+    font-size: 1.2rem;
+}
+
+.input-name{
+    padding-left: 12px !important;
+    font-size: 20px !important;
+    max-width: 60%  !important;
+    border: none !important;
+}
+
+.input-description{
+    margin-right: 12px !important;
+    padding-left: 12px !important;
+    font-size: 20px !important;
+    max-width: 85%  !important;
+    border: none !important;
+}
+
+.description{
+    margin-right: 12px !important;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 15px !important;
+}
